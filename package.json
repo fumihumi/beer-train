@@ -1,0 +1,22 @@
+{
+  "name": "beer-train",
+  "version": "1.0.0",
+  "description": "Use when you want to drink beer during the `忘年会` season",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^7.1.4",
+    "electron-builder": "^21.2.0"
+  },
+  "build": {
+    "appId": "me.fumihumi.beer_train",
+    "mac": {
+      "category": "me.fumihumi.mac.zip"
+    }
+  }
+}
